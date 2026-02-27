@@ -1,0 +1,16 @@
+[
+  {
+    "id": "LNG001",
+    "name": "Airport Lounge - Terminal 1",
+    "airport_code": "MAA",
+    "capacity": 50,
+    "occupancy": 12
+  },
+  {
+    "id": "LNG002",
+    "name": "Airport Lounge - Terminal 2",
+    "airport_code": "DEL",
+    "capacity": 80,
+    "occupancy": 66
+  }
+]

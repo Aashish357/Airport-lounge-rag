@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='payment.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h2>Airport Lounge Payment</h2>
+        <p><b>Order ID:</b> {{order_id}}</p>
+        <p><b>Amount:</b> ₹{{order['amount']}}</p>
+        <form method="POST" action="/payment/pay/{{order_id}}">
+            <button type="submit">Pay Securely</button>
+        </form>
+        <p class="success-text">Payments are secured & encrypted (mock)</p>
+    </div>
+</body>
+</html>
+</body></html>

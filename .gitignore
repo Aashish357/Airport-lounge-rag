@@ -1,0 +1,42 @@
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Python Cache Files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+lounge/
+venv/
+env/
+
+# =========================
+# Local Model Downloads
+# =========================
+models/
+
+# =========================
+# Jupyter Notebooks Checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Local Database Files
+# =========================
+instance/
+*.db
+*.sqlite3
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
