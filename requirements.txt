@@ -1,10 +1,6 @@
-streamlit
-sentence-transformers
-groq
-numpy
-python-dotenvflask=3.1.2
-pyjwt==2.10.1
+streamlit==1.32.2
+sentence-transformers==2.2.2
+groq==0.4.2
+numpy==1.26.4
 python-dotenv==1.0.1
-requests==2.32.5
-langchain_community
-flask_sqlalchemy
+torch==2.2.2
